@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name": "Serverless Web Application on AWS",
+        "status": "COMPLETED",
+        "description": "Serverless AWS application using Lambda, API Gateway, S3, and IAM.",
+        "stack": [
+            "AWS Lambda",
+            "Amazon API Gateway",
+            "Amazon S3",
+            "AWS IAM",
+            "Amazon CloudWatch"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Cloud-Native DevOps Portfolio Deployment",
+        "status": "COMPLETED",
+        "description": "Containerized a full-stack application using Docker and deployed it on a kubeadm Kubernetes cluster provisioned with Vagrant.",
+        "stack": [
+            "React",
+            "Node.js",
+            "Docker",
+            "Kubernetes",
+            "kubeadm",
+            "Vagrant",
+            "Nginx",
+            "Linux",
+            "Git",
+            "GitHub"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Portfolio Website CI/CD Deployment",
+        "status": "COMPLETED",
+        "description": "Deployed a portfolio website using Docker, Jenkins CI/CD, Kubernetes, and Helm.",
+        "stack": [
+            "Docker",
+            "Jenkins",
+            "Kubernetes",
+            "Nginx",
+            "Helm",
+            "Git",
+            "GitHub"
+        ]
+    }
+]
