@@ -1,17 +1,18 @@
-
 services:
   backend:
+    image: mrpandya3117/varun-portfolio-backend:latest
     build:
       context: ./backend
       dockerfile: Dockerfile
     restart: unless-stopped
 
   frontend:
+    image: mrpandya3117/varun-portfolio-frontend:latest
     build:
       context: ./frontend
       dockerfile: Dockerfile
     ports:
-      - "8282:80"
+      - "8080:80"
     depends_on:
       - backend
     restart: unless-stopped
