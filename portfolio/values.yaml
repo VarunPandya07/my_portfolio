@@ -1,0 +1,23 @@
+frontend:
+  replicaCount: 1
+  image:
+    repository: mrpandya3117/varun-portfolio-frontend
+    tag: latest
+    pullPolicy: IfNotPresent
+  service:
+    type: NodePort
+    port: 80
+    nodePort: 30080
+
+backend:
+  replicaCount: 1
+  image:
+    repository: mrpandya3117/varun-portfolio-backend
+    tag: latest
+    pullPolicy: IfNotPresent
+  service:
+    type: ClusterIP
+    port: 8181
+    targetPort: 8181
+
+imagePullSecrets: []
